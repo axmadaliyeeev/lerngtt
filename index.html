@@ -22,6 +22,63 @@
     </div>
   </div>
 
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-text">
+          <span class="section-tag">Контакты</span>
+          <h2 class="section-title">Начнём<br><em>проект?</em></h2>
+          <p>Расскажите о своей задаче — ответим в течение 2 часов и предложим решение.</p>
+          <div class="contact-links">
+            <a href="https://t.me/mrgroup" class="contact-link tg-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/></svg>
+              @mrgroup_dev
+            </a>
+            <a href="tel:+79001234567" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.67 19.79 19.79 0 01.11 4.05 2 2 0 012.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 9.91a16 16 0 006.18 6.18l1.48-.55a2 2 0 012.11.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              +7 900 123-45-67
+            </a>
+            <a href="mailto:hello@mrgroup.dev" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              hello@mrgroup.dev
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Ваше имя" required />
+            <label for="name">Ваше имя</label>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required />
+            <label for="phone">Телефон</label>
+          </div>
+          <div class="form-group">
+            <select id="service">
+              <option value="">Выберите услугу</option>
+              <option value="site">Веб-сайт</option>
+              <option value="bot">Telegram-бот</option>
+              <option value="api">API интеграция</option>
+              <option value="design">Дизайн</option>
+              <option value="seo">SEO</option>
+              <option value="other">Другое</option>
+            </select>
+            <label for="service">Услуга</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" placeholder="Расскажите о проекте..." rows="4"></textarea>
+            <label for="message">Описание</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span class="btn-text">Отправить заявку</span>
+            <span class="btn-icon">→</span>
+          </button>
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+        </form>
+      </div>
+    </div>
+  </section>
 
 
   <!-- SUCCESS MODAL -->
